@@ -1,18 +1,16 @@
 
 th {
-    border: 2px solid black;
+    border: 2px solid grey;
     width: 30%;
     height: 50px;
-    border-radius: 10px;
-    color: white;
-    background-color: GREEN;
-    text-transform: uppercase;
-    font-style: italic;
-    font-family: cursive;
+    color: gray;
+    
+    
+    
 }
 
 #logo{
-	height: 35px;
+	height: 5px;
 }
 
 #logo img{
@@ -37,15 +35,14 @@ h1{
 }
 
 input[type=text]{
-	border: 2px solid blue;
+	border: 2px  gray;
 	width: 80%;
 	height: 20px;
-	border-radius: 10px;
 }
 
 
 body{
-	background: url("image/download.jpg");
+	background: url("image/imge.jpg");
 	margin: auto;
 }
 
@@ -68,7 +65,7 @@ body{
 	height: 30px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
-	color: blue;
+	color: gray;
 	font-size: 20px;
 	font-style: italic;
 }
@@ -81,7 +78,7 @@ body{
 	height: 60px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
-	color: red;
+	color: gray;
 	font-size: 200%;
 	font-style: italic;
 }
@@ -105,10 +102,9 @@ body{
 	}
 
 	#btn2{
-		position: relative;
-		top: 400px;
-		left: 60px;
-		width: 50%;
+		top: 200px;
+		left: 50px;
+		width: 40%;
 	}
 }
 
