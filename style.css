@@ -85,6 +85,18 @@ body{
 	font-size: 200%;
 	font-style: italic;
 }
+#btn3{
+	position: relative;
+	left: 200px;
+	top: 230px;
+	width: 40%;
+	height: 60px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px;
+	color: red;
+	font-size: 200%;
+	font-style: italic;
+}
 
 @media (max-width: 500px) {
 	table,h1{
