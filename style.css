@@ -49,15 +49,16 @@ body{
 #btn{
 	position: relative;
 	left: 800px;
-	top: 370px;
-	width: 26%;
+	
+	top: 345px;
+	width: 23%;
 	height: 40px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
 	font-style: italic;
     font-size: 20px;
     font-weight: bold;
-    color: green;
+    color: gray;
 }
 
 #btn1{
@@ -65,9 +66,11 @@ body{
 	height: 30px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
-	color: gray;
-	font-size: 20px;
 	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+	color: gray;
+	
 }
 
 #btn2{
@@ -105,6 +108,11 @@ body{
 		top: 200px;
 		left: 50px;
 		width: 40%;
+	}
+	#btn3{
+		top: 200px;
+		left: 50px;
+		width: 50%;
 	}
 }
 
