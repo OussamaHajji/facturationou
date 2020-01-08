@@ -19,6 +19,10 @@ res.innerHTML+="<tr><th id='lib'><input type='text' name='libelle' value='"+n1.v
 }
 
 function calculer(){
+if (variable == null){
+    alert('champ vide')
+}
+else{
 somme=0;
 sprix=document.getElementsByName('prix');
 qauntite=document.getElementsByName('Qauntite');
@@ -30,7 +34,7 @@ for (var i = 0; i < sprix.length; i++) {
 
 tht.innerHTML = somme +"DHS";
 ttc.innerHTML=somme*(1+tva.value/100);
-}
+}}
 
 function sup(e) {
 	e.parentNode.parentNode.remove();
