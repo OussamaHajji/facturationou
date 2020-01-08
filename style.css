@@ -1,18 +1,16 @@
 
 th {
-    border: 2px solid black;
+    border: 2px solid grey;
     width: 30%;
     height: 50px;
-    border-radius: 10px;
-    color: white;
-    background-color: GREEN;
-    text-transform: uppercase;
-    font-style: italic;
-    font-family: cursive;
+    color: gray;
+    
+    
+    
 }
 
 #logo{
-	height: 30px;
+	height: 5px;
 }
 
 #logo img{
@@ -22,6 +20,14 @@ th {
 
 h1{
 	text-align: center;
+}
+h2{
+position: relative;	
+color:red;
+   text-transform: uppercase;
+    font-style: italic;
+    font-family: cursive;
+
 }
 
 #dd{
@@ -37,30 +43,30 @@ h1{
 }
 
 input[type=text]{
-	border: 2px solid gray;
+	border: 2px  gray;
 	width: 80%;
 	height: 20px;
-	border-radius: 10px;
 }
 
 
 body{
-	background: url("image/img.png");
+	background: url("image/imge.jpg");
 	margin: auto;
 }
 
 #btn{
 	position: relative;
 	left: 800px;
-	top: 370px;
-	width: 26%;
+	
+	top: 345px;
+	width: 23%;
 	height: 40px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
 	font-style: italic;
     font-size: 20px;
     font-weight: bold;
-    color: green;
+    color: gray;
 }
 
 #btn1{
@@ -68,9 +74,11 @@ body{
 	height: 30px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
-	color: blue;
-	font-size: 20px;
 	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+	color: gray;
+	
 }
 
 #btn2{
@@ -81,7 +89,7 @@ body{
 	height: 60px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px;
-	color: red;
+	color: gray;
 	font-size: 200%;
 	font-style: italic;
 }
@@ -117,9 +125,13 @@ body{
 	}
 
 	#btn2{
-		position: relative;
-		top: 400px;
-		left: 60px;
+		top: 200px;
+		left: 50px;
+		width: 40%;
+	}
+	#btn3{
+		top: 200px;
+		left: 50px;
 		width: 50%;
 	}
 }

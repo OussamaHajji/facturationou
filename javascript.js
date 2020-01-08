@@ -19,6 +19,7 @@ res.innerHTML+="<tr><th id='lib'><input type='text' name='libelle' value='"+n1.v
 }
 
 function calculer(){
+
 somme=0;
 sprix=document.getElementsByName('prix');
 qauntite=document.getElementsByName('Qauntite');
